@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(237, 211, 237);
+}
+
+.grand-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.grand-container img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.manu-items {
+    display: flex;
+    gap: 40px;
+}
+
+.manu-items a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.nav-btn{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(70, 70, 118);
+    border: none;
+    color: white;
+}
+/* HERO SECTION START */
+.hero-content{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    gap: 30px;    
+}
+.hero-title h3{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.hero-title h1{
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.mr-title{
+    color: darkblue;
+}
+.a-title{
+    color: yellowgreen;
+}
+.hero-title p{
+    font-size: larger;
+    margin-bottom: 10px;
+}
